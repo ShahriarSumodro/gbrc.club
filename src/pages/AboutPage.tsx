@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -5,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-6 max-w-4xl">
@@ -47,6 +48,7 @@ const AboutPage = () => {
           </div>
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };
