@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -69,7 +70,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-6">
@@ -114,7 +115,7 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <CardTitle className="text-lg">Phone</CardTitle>
-                        <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                        <p className="text-muted-foreground">+880 1602-156195</p>
                       </div>
                     </div>
                   </CardHeader>
@@ -128,7 +129,7 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <CardTitle className="text-lg">Location</CardTitle>
-                        <p className="text-muted-foreground">Engineering Building, Room 201</p>
+                        <p className="text-muted-foreground">6th Floor, A Block, EEE, Robotics Club, Gono Bishwabidyalay</p>
                       </div>
                     </div>
                   </CardHeader>
@@ -201,6 +202,7 @@ const ContactPage = () => {
           </div>
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };
