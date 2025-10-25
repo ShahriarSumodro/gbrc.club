@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import WhatWeDo from "@/components/WhatWeDo";
@@ -8,7 +9,7 @@ import Contact from "@/components/Contact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       <Hero />
       <WhatWeDo />
@@ -16,6 +17,7 @@ const Index = () => {
       <Stats />
       <Team />
       <Contact />
+      <Footer />
     </div>
   );
 };
