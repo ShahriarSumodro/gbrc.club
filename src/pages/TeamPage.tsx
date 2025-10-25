@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { ArrowLeft } from "lucide-react";
@@ -100,7 +101,7 @@ const TeamPage = () => {
     {
       name: "Md. Shohel",
       role: "President",
-      imageUrl: "", // Replace with ImgBB URL: https://i.ibb.co/XXXXXXX/shohel.jpg
+      imageUrl: "https://i.ibb.co.com/SWX0b91/1729018442598-Md-Sohel.jpg", // Replace with ImgBB URL: https://i.ibb.co/XXXXXXX/shohel.jpg
       socialLinks: [
         {
           icon: "https://cdn-icons-png.flaticon.com/512/174/174857.png", // Replace with ImgBB URL for LinkedIn icon
@@ -108,7 +109,7 @@ const TeamPage = () => {
           label: "LinkedIn"
         },
         {
-          icon: "", // Replace with ImgBB URL for Email icon
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png", // Replace with ImgBB URL for Email icon
           url: "https://www.facebook.com/md.shohel.148111",
           label: "Facebook"
         }
@@ -120,7 +121,7 @@ const TeamPage = () => {
       imageUrl: "https://i.ibb.co.com/5gtyHTwW/476162119-1818580485648409-2150846323838611297-n.jpg", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "",
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
           url: "https://www.facebook.com/sa.zim.31",
           label: "Facebook"
         }
@@ -137,7 +138,7 @@ const TeamPage = () => {
           label: "LinkedIn"
         },
         {
-          icon: "",
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
           url: "https://www.facebook.com/rubaettoha",
           label: "Facebook"
         }
@@ -146,17 +147,12 @@ const TeamPage = () => {
     {
       name: "Md. Ridoy Hossen",
       role: "Asst. General Secretary",
-      imageUrl: "", // Replace with ImgBB URL
+      imageUrl: "https://i.ibb.co.com/ZtyMkgY/inbound7126104292500909030-garden-of-Choice.jpg", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "",
-          url: "https://linkedin.com",
-          label: "LinkedIn"
-        },
-        {
-          icon: "",
-          url: "mailto:ridoy@robotics.edu",
-          label: "Email"
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+          url: "https://www.facebook.com/100013742806886/",
+          label: "Facebook"
         }
       ]
     },
@@ -166,7 +162,7 @@ const TeamPage = () => {
       imageUrl: "https://i.ibb.co.com/xq8RLW88/468098241-1781054236056212-4640740213134868125-n.jpg", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "",
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
           url: "https://www.facebook.com/j.an.96387189",
           label: "Facebook"
         }
@@ -175,17 +171,17 @@ const TeamPage = () => {
     {
       name: "Alimul Jisan",
       role: "Office Secretary",
-      imageUrl: "", // Replace with ImgBB URL
+      imageUrl: "https://i.ibb.co.com/fGqBncfk/inbound4970722682014605713-Alimul-Hassan.jpg", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "",
-          url: "https://linkedin.com",
+          icon: "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+          url: "https://www.linkedin.com/in/alimul-hassan-736b08349?trk=contact-info",
           label: "LinkedIn"
         },
         {
-          icon: "",
-          url: "mailto:alimul@robotics.edu",
-          label: "Email"
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+          url: "https://www.facebook.com/share/16YipTy7v4/",
+          label: "Facebook"
         }
       ]
     },
@@ -200,7 +196,7 @@ const TeamPage = () => {
           label: "LinkedIn"
         },
         {
-          icon: "",
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
           url: "https://www.facebook.com/share/1N7rzv4woi/",
           label: "Facebook"
         }
@@ -217,7 +213,7 @@ const TeamPage = () => {
           label: "LinkedIn"
         },
         {
-          icon: "",
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
           url: "https://www.facebook.com/share/15Hx5chZEGb/",
           label: "Facebook"
         }
@@ -229,85 +225,75 @@ const TeamPage = () => {
     {
       name: "Sonjoy Paul",
       role: "Executive Member",
-      imageUrl: "", // Replace with ImgBB URL
+      imageUrl: "https://i.ibb.co.com/Ngbjs6B8/inbound8300385185992761600-Sonjoy-paul.jpg", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "",
-          url: "https://linkedin.com",
-          label: "LinkedIn"
-        },
-        {
-          icon: "",
-          url: "mailto:sonjoy@robotics.edu",
-          label: "Email"
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+          url: "https://www.facebook.com/share/1ag84P5RPt/",
+          label: "Facebook"
         }
       ]
     },
     {
       name: "Md. Ahsan Habib",
       role: "Executive Member",
-      imageUrl: "", // Replace with ImgBB URL
+      imageUrl: "https://i.ibb.co.com/VYVjr5pm/1761406711406-ah-Robi.png", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "",
-          url: "https://linkedin.com",
-          label: "LinkedIn"
-        },
-        {
-          icon: "",
-          url: "mailto:ahsan@robotics.edu",
-          label: "Email"
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+          url: "https://www.facebook.com/robi.lio.bd",
+          label: "Facebook"
         }
       ]
     },
     {
       name: "Oli Ullah Fahad",
       role: "Executive Member",
-      imageUrl: "", // Replace with ImgBB URL
+      imageUrl: "https://i.ibb.co.com/bjHkfYR8/inbound24419383209899016-Fahad-Ullah.webp", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "",
-          url: "https://linkedin.com",
+          icon: "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+          url: "https://www.linkedin.com/in/fahad-ullah-fahad-ullah-855658390?trk=contact-info",
           label: "LinkedIn"
         },
         {
-          icon: "",
-          url: "mailto:oli@robotics.edu",
-          label: "Email"
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+          url: "https://www.facebook.com/share/1CDfbmxT4Y/",
+          label: "Facebook"
         }
       ]
     },
     {
       name: "Md. Mehedi Hasan",
       role: "Executive Member",
-      imageUrl: "", // Replace with ImgBB URL
+      imageUrl: "https://i.ibb.co.com/Cdcxprv/IMG20250120155244-Md-Mehedi-Hasan.jpg", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "",
-          url: "https://linkedin.com",
+          icon: "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+          url: "https://www.linkedin.com/in/mdmehedihasan",
           label: "LinkedIn"
         },
         {
-          icon: "",
-          url: "mailto:mehedi@robotics.edu",
-          label: "Email"
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+          url: "https://www.facebook.com/share/19iNUzJHiF/",
+          label: "Facebook"
         }
       ]
     },
     {
-      name: "Anika Anjum Mim",
+      name: "Mst. Anika Anjum Mim",
       role: "Executive Member",
-      imageUrl: "", // Replace with ImgBB URL
+      imageUrl: "https://i.ibb.co.com/PZKsYnmH/inbound8282683136419709577-Anika-Anjum.jpg", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "",
-          url: "https://linkedin.com",
+          icon: "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+          url: "https://www.linkedin.com/in/mst-anika-anjum-mim-424694394?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           label: "LinkedIn"
         },
         {
-          icon: "",
-          url: "mailto:anika@robotics.edu",
-          label: "Email"
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+          url: "https://www.facebook.com/anikaanjum.mim.92",
+          label: "Facebook"
         }
       ]
     },
@@ -322,7 +308,7 @@ const TeamPage = () => {
           label: "LinkedIn"
         },
         {
-          icon: "",
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
           url: "https://www.facebook.com/shahriar.sumodro",
           label: "Facebook"
         }
@@ -331,17 +317,12 @@ const TeamPage = () => {
     {
       name: "Zubaida Islam Zuhi",
       role: "Executive Member",
-      imageUrl: "", // Replace with ImgBB URL
-      socialLinks: [
+      imageUrl: "https://i.ibb.co.com/jvmSpXpZ/inbound1789560223511051039-Zubaida-Islam-Zuhi.jpg", // Replace with ImgBB URL
+      socialLinks: [ 
         {
-          icon: "",
-          url: "https://linkedin.com",
-          label: "LinkedIn"
-        },
-        {
-          icon: "",
-          url: "mailto:zubaida@robotics.edu",
-          label: "Email"
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+          url: "https://www.facebook.com/share/1DJGCuJeT8/",
+          label: "Facebook"
         }
       ]
     },
@@ -354,12 +335,12 @@ const TeamPage = () => {
       imageUrl: "https://i.ibb.co.com/Vpx2jvNk/download-5.jpg", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "https://cdn-icons-png.flaticon.com/512/813/813418.png",
+          icon: "https://i.ibb.co.com/N6SprHW4/browser.png",
           url: "https://gonouniversity.edu.bd/eee/employees/md-al-amin-sarker/",
           label: "Website"
         },
         {
-          icon: "",
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
           url: "https://www.facebook.com/al.amin.sarker.233164",
           label: "Facebook"
         }
@@ -371,21 +352,21 @@ const TeamPage = () => {
       imageUrl: "https://i.ibb.co.com/r8xTCLF/Sumon.jpg", // Replace with ImgBB URL
       socialLinks: [
         {
-          icon: "https://cdn-icons-png.flaticon.com/512/813/813418.png",
+          icon: "https://i.ibb.co.com/N6SprHW4/browser.png",
           url: "https://gonouniversity.edu.bd/eee/employees/sumon-ahmed/",
           label: "Website"
         },
         {
-          icon: "",
+          icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
           url: "https://www.facebook.com/sumonahamed.durjoy",
           label: "Facebook"
         }
       ]
-    },
+    }
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-6">
@@ -405,7 +386,7 @@ const TeamPage = () => {
 
           <TeamSection title="Leadership & Project Leads" members={leadership} />
           <TeamSection title="Executive Members" members={executives} />
-          <TeamSection title="Coordinator Panel" members={coordinators} />
+          <TeamSection title="Co-ordinator Panel" members={coordinators} />
 
           {/* Recruitment Section */}
           <div className="mt-24 mb-12 max-w-4xl mx-auto">
@@ -431,6 +412,7 @@ const TeamPage = () => {
           </div>
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };
