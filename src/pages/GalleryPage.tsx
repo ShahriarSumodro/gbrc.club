@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -127,7 +128,7 @@ const GalleryPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-6">
@@ -231,6 +232,7 @@ const GalleryPage = () => {
           </div>
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };
