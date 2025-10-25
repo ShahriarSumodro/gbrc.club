@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import { Card } from "@/components/ui/card";
 import { Wrench, Flame, Plane, Zap, ArrowLeft } from "lucide-react";
@@ -43,7 +44,7 @@ const ProjectsPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-6">
@@ -123,6 +124,7 @@ const ProjectsPage = () => {
           </div>
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };
