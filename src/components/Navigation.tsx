@@ -13,8 +13,7 @@ const Navigation = () => {
     { name: "Projects", path: "/projects" },
     { name: "Team", path: "/team" },
     { name: "Sponsors", path: "/sponsors" },
-    { name: "Gallery", path: "/gallery" },
-    { name: "Membership", path: "/membership" },
+    { name: "Gallery", path: "/gallery" }
   ];
 
   return (
@@ -23,7 +22,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <img src={robotLogo} alt="Robotics Team Logo" className="h-10 w-10" />
-            <span className="text-2xl font-bold text-foreground tracking-wider">RoboTech</span>
+            <span className="text-2xl font-bold text-foreground tracking-wider">GB Robotics Club</span>
           </Link>
 
           {/* Desktop Navigation */}
