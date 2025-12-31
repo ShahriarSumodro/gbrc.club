@@ -236,9 +236,7 @@ const GalleryPage = () => {
                           src={item.images[currentIndex]}
                           alt={`${item.title} - Image ${currentIndex + 1}`}
                           className="w-full h-full object-cover"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-background/95 via-transparent to-transparent" />
-                        
+                        />                        
                         {/* Compact Title at top */}
                         <div className="absolute top-3 left-3 right-3 bg-background/60 backdrop-blur-sm px-3 py-1.5 rounded-md border border-border/50">
                           <h3 className="text-sm font-semibold text-primary truncate">{item.title}</h3>
